@@ -5,6 +5,7 @@
 
 install.packages("ISLR")
 library(ISLR)
+sm = Smarket
 names(Smarket)
 dim(Smarket)
 summary(Smarket)
@@ -13,7 +14,7 @@ cor(Smarket)
 cor(Smarket[,-9])
 attach(Smarket)
 plot(Volume, pch=16, cex=.5, col="blue")
-
+648/(648+602)
 # Create training data set
 # Note: no reshuffling.  Why? 
 train=(Year<2005)
@@ -31,7 +32,7 @@ train.Direction=Direction[train]
 set.seed(1)
 
 # Running K-nearest Neighbor 
-# k-nearest neighbour classification for test set from training set. 
+# k-nearest neighbor classification for test set from training set. 
 # For each row of the test set, the k nearest (in Euclidean distance) 
 # training set vectors are found, and the classification is decided by 
 # majority vote, with ties broken at random. 
