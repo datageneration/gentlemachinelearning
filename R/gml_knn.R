@@ -1,5 +1,5 @@
 ## Gentle Machine Learning
-## KNN
+## K-nearest Neighbor (KNN)
 ## Adapted from James, G., Witten, D., Hastie, T. and Tibshirani, R., 2013. 
 ## An introduction to statistical learning (Vol. 112, p. 18). New York: springer
 
